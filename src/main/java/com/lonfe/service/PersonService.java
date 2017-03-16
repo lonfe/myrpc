@@ -1,0 +1,1 @@
+package com.lonfe.service;import java.util.List;public interface PersonService {	public List<String> getInterestList(String name);}

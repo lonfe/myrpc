@@ -1,0 +1,1 @@
+package com.lonfe.service;import java.util.Arrays;import java.util.List;public class PersonServiceImpl implements PersonService {	public List<String> getInterestList(String name) {		return Arrays.asList("run", "read", "game");	}}

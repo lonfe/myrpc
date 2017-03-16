@@ -1,0 +1,1 @@
+package com.lonfe.spring;import org.springframework.beans.factory.xml.NamespaceHandlerSupport;public class NamespaceHandler extends NamespaceHandlerSupport {	public void init() {		registerBeanDefinitionParser("reference", new MyRPCParser(ReferencesProxy.class));		registerBeanDefinitionParser("provider", new MyRPCParser(ProvidersBean.class));	}}
